@@ -20,7 +20,6 @@ function playCraps() {
     document.getElementById("sumRes").innerHTML = "sum result = " + sum;
 
     //check for 7 or 11 meaning loss
-    console.log("game result = ");
     if (sum == 7 || sum == 11) {
         document.getElementById("gameRes").innerHTML = "You lost to the Frog Prince!";
     } //check for doubles and even for the win
